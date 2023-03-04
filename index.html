@@ -1,27 +1,119 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Code Nation Hackathon BAY 2023</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Your CSS Linked Below-->
-    <link rel="stylesheet" href="/styles.css" />
-    <!-- jQuery Linked Below-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Your Javascript Linked Below-->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <h1>Welcome to the Code Nation Hackathon!!!!!!</h1>
-    <img
-      src="https://cdn.glitch.com/edcd0b68-e25b-4097-aca1-2b4ca45eb9c4%2FMinionWaving.jpg?v=1582065175337
-              "
-    />
-    <p>
-      I'm your cool new webpage. Made with
-      <a href="https://www.glitch.com">Glitch</a>.
-    </p>
-    <a href="/page-one.html"> Link to page-one.html</a>
-  </body>
+
+<head>
+  <title>Minecraft Awards</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Your CSS Linked Below-->
+  <link rel="stylesheet" href="/styles.css" />
+  <!-- jQuery Linked Below-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Your Javascript Linked Below-->
+  <script src="/script.js" defer></script>
+</head>
+<audio></audio>
+
+<body>
+  <h1>Welcome to the Minecraft Awards!</h1>
+  <div class="fonts">
+  <h2>This is where you can see some of the awesome minecraft records!</h2>
+  <h2>Click on one of the trophys to see who was the winner!</h2>
+  </div>
+  <h2 class="title">Awards</h2>
+  <div class="trophy-case">
+    <img  title="Creator Award!" id="trophy1" class="trophy" src="./images/youtube trophy.png" onclick="yttrophy()" alt="youtube trophy">
+    
+    <img title="Best Pvper" id="trophy2" class="trophy" src="./images/diamondTrophy.png" onclick="diamondtrophy()" alt="diamond trophy">
+    
+    <img title="Fastest Speedrunner" id=trophy3 class="trophy" src="./images/speedrun.png" onclick="speedruntrophy()" alt="speedrun trophy">
+    
+    <img title="Highest Winstreak" id="trophy4" class="trophy" src="./images/winstreak.png" onclick="wstrophy()" alt="gold trophy">
+    
+    <img title="Best Redstone Build"id="trophy5" class="trophy" src="./images/redstone.png" onclick="redstonetrophy()" alt="Redstone trophy">
+    <img title="Most Potatoes Farmed" id="trophy6" class="trophy" src="./images/potato.png" onclick="potatotrophy()">
+    <img title="Best Minecraft Community Server"id="trophy7" class="trophy" src="./images/Best Server.png" onclick="Communitytrophy()">
+  </div>
+  <div class="section-case">
+    <div class="award">
+      <div class="CreatorAward award-box">
+        <h2 class="AwardTitle">Creator award</h2>
+        <div class="winnername">DanTDM</div>
+        <p class="AwardParagraph">DanTDM is one of the biggest minecraft creator for a long time</p>
+      </div>  
+      <div class="PVPAward award-box">
+        <h2 class="AwardTitle">PVP award</h2>
+        <h2 class="Winnername">Technoblade</h2>
+        <p class="AwardParagraph">He routinely wins tournaments and bests other players, which make him the the best PvP player in the world.
+
+
+        </p>
+      </div>
+      <div class="SpeedRunAward award-box">
+        <h2 class="AwardTitle">SpeedRun award</h2>
+        <h2 class="winnername">doogile</h2>
+        <p class="AwardParagraph"><b>Achieved the fastest Speed run record. Which is 8 minutes and 15 seconds </b></p>
+      </div>
+      <div class="WinStreakAward award-box">
+        <h2 class="AwardTitle">WinStreak award</h2>
+        <h2 class="winnername">defone</h2>
+        <p class="AwardParagraph"> Who has 1300 winstreaks in Minecraft Bed Wars 
+
+</p>
+      </div>
+      <div class="RedstoneAward award-box">
+        <h2 class="AwardTitle">Best redstone build</h2>
+        <h2 class="winnername"> Mumbo Jumbo</h2>
+        <p class="AwardParagraph">as one of the best minecraft Redstone builders.Respected in the minecraft community</p>
+      </div>
+      <div class="Communityaward award-box">
+        <h2 class="AwardTitle">The best community</h2>
+        <h2 class="winnername">Hypixel</h2>
+        <p class="AwardParagraph">Hypixel is one of the world's largest and highest-quality MinecraftServer Networks, featuring original and fun games such as SkyBlock, Bed Wars, SkyWars, and many more! To play on the Hypixel Server, you must own a Minecraft account for PC/Mac (sometimes known as the Java version</p>
+      </div>
+      <div class="PotatoAward award-box">
+        <h2 class="AwardTitle">Most potato farmed</h2>
+        <h2 class="winnername">Technoblade</h2>
+        <p class="AwardParagraph">While having a potato war with squid kid another potato farmer they end up farming to the top until Techno wins the potato war with 500 mil potatoes</p>
+      </div>
+    </div>
+    <div class="video">
+        <div class="CreatorAward video-box">
+          <iframe height="400" width="100%" src="https://www.youtube.com/embed/zk2_xuP4TNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"     
+allowfullscreen></iframe>
+        </div>
+        <div class="PVPAward video-box">
+        <iframe class="iframe" width="100%" height="400" src="https://www.youtube.com/embed/vAACnDkKqFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="SpeedRunAward video-box">
+        <iframe height="400" width="100%"
+src="https://www.youtube.com/embed/8DYIvJETTDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="WinStreakAward video-box">
+        <iframe height="400" width="100%" src="https://www.youtube.com/embed/jeTDofhtn1k"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="RedstoneAward video-box">
+        <iframe height="400" width="100%"
+src="https://www.youtube.com/embed/xNP-4fMqZf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        <div class="Communityaward video-box">
+<iframe height="400" width="100%"
+src="https://www.youtube.com/embed/bkWHyz1MmaQ" frameborder="0" allow="accelerometer"; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="PotatoAward video-box">
+        <iframe height="400" width="100%"
+src="https://www.youtube.com/embed/09CeBwGbCeg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+  </div>
+      <div class="MinecraftImages">
+        <img class="DivImage" src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png">
+        <img class="DivImage" src="https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_One-Vanilla_285x380px.jpg">      
+        <img class="DivImage" src="https://upload.wikimedia.org/wikipedia/en/7/73/Minecraft_Dungeons_cover_art.jpg">
+        <img class="DivImage" src="https://upload.wikimedia.org/wikipedia/en/2/23/Minecraft_Legends_Cover_Art.jpg">       
+        <img class="DivImage" src="https://upload.wikimedia.org/wikipedia/en/0/04/Minecraft_Story_Mode_cover.jpeg">
+      </div>
+</body>
+
 </html>

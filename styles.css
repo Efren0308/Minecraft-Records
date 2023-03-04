@@ -1,3 +1,105 @@
-h1 {
-  color: red;
+@font-face {
+    font-family: "MinecraftAlt";
+    src: url("./Minecrafter.Alt.ttf") format("truetype");
 }
+@font-face {
+    font-family: "MinecraftReg";
+    src: url("./Minecrafter.Reg.ttf") format("truetype");
+}
+h1 {
+  color: black;
+  font-family: "MinecraftAlt";
+  text-align:center;
+}
+.fonts h2{
+  color: black;
+  text-align:center;
+}
+.title{
+  text-align:center;
+}
+body{
+background: rgb(175,124,17);
+background: linear-gradient(90deg, rgba(175,124,17,1) 0%, rgba(251,200,4,1) 49%, rgba(175,124,17,1) 100%);
+}
+.trophy-case {
+/*   background-image: url("./images/trophy.png"); */
+  background-color: gold;
+  border: black solid 5px;
+  min-width:95%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.trophy {
+width: 50px;
+   margin: 10px;
+border: black solid 4px;
+}
+
+.section-case {
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.award-box {
+  display: none;
+}
+.
+.video-box {
+  display: none;
+}
+
+.video{
+  width:50%;
+}
+.award-box {
+  border:black solid 4px;
+  min-width:50%;
+  background-color:NavajoWhite;
+  text-align:center;
+  height:400px;
+}
+.AwardTitle {
+  font-family: "MinecraftAlt";
+  
+}
+.winnername 
+.AwardParagraph
+.awardtitle {
+  text-align:center;
+  color:black;
+}
+.MinecraftImages{
+  display:flex;
+  justify-content: space-around;
+}
+.DivImage {
+  height:400px;
+  border: black solid 4px;
+  padding: 4px;
+  margin:2px;
+  background-color: white;
+}
+.video-box{
+  height:400px;
+  min-width:100%;
+  border: black solid 4px;
+  padding: 4px;
+  margin:2px;
+  background-color: white;
+}
+.iframe {
+  width:100%;
+}
+
+
+
+.Communityaward {
+max-width: 50%;
+    margin-right: 800px;
+
+}
+
